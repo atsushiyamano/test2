@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+:root{
+    --brand-clor: orange;
+    --variable: b
+}
+
+body{
+    background-color: blue;
+}
+
+h1{
+    background-color: aquamarine;
+}
+
+p{
+    background-color: aquamarine;
+}
+
+section > p{
+    background-color: brown;
+}
+
+section p{
+    background-color:bisque;
+}
+
+li + li {
+    border: 1px solid red;
+}
+
+:nth-child(odd){
+    border-top:3px solid black;
+}
+
+:nth-child(2n){
+    border-color: blueviolet;
+}
+
+:first-child{
+    border-color: sienna;
+}
+
+button:hover{
+    font-weight: bold;
+}
+
+button:active{
+    border:10px solid red;
+}
+
+p::before{
+    content:'-';;
+}
+
+p::after{
+    content:'-';
+}
+
+.flex-container{
+    display:flex;
+    flex-direction: row;
+}
